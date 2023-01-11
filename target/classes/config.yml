@@ -1,0 +1,19 @@
+forbiddenLiquids:
+    - Lava
+    #- Water
+
+messages:
+    help: '§9[BewareLiquids] §6/bl reload - Reload the plugin.'
+    reload: '§9[BewareLiquids] §aPlugin reloaded!'
+    permission: '§9[BewareLiquids] §4You dont have enough permission!'
+
+# Set fire ticks to 0 when teleport to secure place
+removeFire: true
+
+# Ignore forbidden liquids if player is in boat.
+allowBoats: true
+
+# Worlds where plugin will work.
+worlds:
+    - world
+    - world_nether

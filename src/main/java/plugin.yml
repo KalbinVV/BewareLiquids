@@ -1,0 +1,18 @@
+main: org.kalbinvv.bewareliquids.BewareLiquids
+name: BewareLiquids
+version: '1.0'
+api-version: 1.19
+description: Teleports player to secure place when he falls to lava (or water).
+softdepend: [bStats]
+commands:
+    bewareliquids:
+        description: Main plugin command.
+        usage: /bewareliquids help
+        aliases: [bl]
+permissions:
+    bewareliquids.use:
+        description: Default permission to.
+        default: true
+    bewareliquids.reload:
+        description: For reload command.
+        default: op
